@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="gift-box" onclick="openGift()">
+    🎁
+  </div>
+
+  <div class="message" id="message">
+    Rag korla? 💔
+  </div>
+
+  <div class="credit">
+    made by D Raiyan
+  </div>
+
+</div>
+
+<script>
+function openGift() {
+  document.querySelector(".gift-box").style.display = "none";
+  document.getElementById("message").style.opacity = "1";
+}
+</script>
+
+</body>
+</html>
